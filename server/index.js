@@ -18,13 +18,9 @@ const config = require("./config/key");
 const mongoose = require("mongoose");
 console.log(config.mongoURI, "hello mongo check")
 const connect = mongoose.connect(config.mongoURI,
-  // {
-  //   useNewUrlParser: true, useUnifiedTopology: true,
-  //   useCreateIndex: true, useFindAndModify: false
-  // })
-
   {
-    useNewUrlParser: true
+    useNewUrlParser: true, useUnifiedTopology: true,
+    useCreateIndex: true, useFindAndModify: false
   })
   .then(() => console.log('MongoDB Connected to Atlas...'))
   .catch(err => console.log(err));
@@ -34,7 +30,7 @@ app.use(
     credentials: true,
     origin: [
       "http://localhost:3000",
-      "https://vigorous-carson-99c193.netlify.app"
+      "https://react-tv-digital.herokuapp.com"
     ], //Swap this with the client url - Change to netlify in future
 
     //remove array and set to true - Alternative
