@@ -8,7 +8,7 @@ console.log(process.env.NODE_ENV)
 // export const USER_SERVER = '/api/users';
 
 export const USER_SERVER = process.env.NODE_ENV === "development" ?
-"/api/users":"https://warm-garden-11318.herokuapp.com/api/users";
+"/api/users":"https://react-tv-digital.herokuapp.com/api/users";
 
 export const API_KEY = 'a0265ab770ca0c045998969cf812d64f';
 export const API_URL = 'https://api.themoviedb.org/3/';

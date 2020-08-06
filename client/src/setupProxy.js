@@ -7,7 +7,7 @@ module.exports = function (app) {
     app.use(
         '/api',
         createProxyMiddleware({
-            target: 'http://localhost:5000' || 'https://warm-garden-11318.herokuapp.com',
+            target: 'http://localhost:5000' || 'https://react-tv-digital.herokuapp.com',
             // target: 'https://warm-garden-11318.herokuapp.com', 
             changeOrigin: true,
         })
