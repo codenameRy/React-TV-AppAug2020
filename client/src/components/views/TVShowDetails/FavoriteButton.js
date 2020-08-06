@@ -22,7 +22,7 @@ function FavoriteButton(props) {
             if(response.data.success) {
                 setfavoriteNumber(response.data.favoriteNumber)
             } else {
-                 alert('Failed to get favorite number')
+                 console.log('Failed to get favorite number')
             }
         })
 
@@ -31,7 +31,7 @@ function FavoriteButton(props) {
             if(response.data.success) {
                 setfavoriteSelect(response.data.favoriteSelect)
             } else {
-                 alert('Failed to get favorite info')
+                 console.log('Failed to get favorite info')
             }
         })
 

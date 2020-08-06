@@ -28,7 +28,7 @@ function FavoritePage(props) {
                     setFavoriteTVShows(response.data.favorites)
                     // setLoading(false)
                 } else {
-                    alert('Failed to get favorite TV show')
+                    console.log('Failed to get favorite TV show')
                 }
             })
     }
