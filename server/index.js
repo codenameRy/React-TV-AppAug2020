@@ -18,9 +18,13 @@ const config = require("./config/key");
 const mongoose = require("mongoose");
 console.log(config.mongoURI, "hello mongo check")
 const connect = mongoose.connect(config.mongoURI,
+  // {
+  //   useNewUrlParser: true, useUnifiedTopology: true,
+  //   useCreateIndex: true, useFindAndModify: false
+  // })
+
   {
-    useNewUrlParser: true, useUnifiedTopology: true,
-    useCreateIndex: true, useFindAndModify: false
+    useNewUrlParser: true
   })
   .then(() => console.log('MongoDB Connected to Atlas...'))
   .catch(err => console.log(err));
