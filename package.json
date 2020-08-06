@@ -4,8 +4,8 @@
   "description": "react tv app",
   "main": "index.js",
   "engine": {
-    "node": "10.16.0",
-    "npm": "6.9.0"
+    "node": "12.14.1",
+    "npm": "6.14.5"
   },
   "scripts": {
     "start": "node server/index.js",
