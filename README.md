@@ -6,7 +6,7 @@ TV Digital is a single page web application built featuring thousands of TV show
 Deployed using <a href="https://react-tv-digital.herokuapp.com/">Heroku</a>
 <br></br>
 <a href="https://react-tv-digital.herokuapp.com/">
-  <img src="/images/heroku-logo.png" alt="Heroku" width="534" height="317">
+  <img src="/images/heroku-logo.jpeg" alt="Heroku" width="534" height="146">
 </a>
 
 ## Built With
