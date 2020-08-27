@@ -12,7 +12,7 @@ Deployed using <a href="https://react-tv-digital.herokuapp.com/">Heroku</a>
 ## Built With
 
 * [ReactJS](https://reactjs.org) - JavaScript library for building user interfaces.
-* [ReduxJS](https://redux.js.org) - Open-source JavaScript library for managing application. state, used with libraries such as React or Angular for building user interfaces.
+* [ReduxJS](https://redux.js.org) - Open-source JavaScript library for managing application state, commonly used with libraries such as React or Angular for building user interfaces.
 * [NodeJS](https://nodejs.org/en/) - Open-source, cross-platform, JavaScript runtime   environment that executes JavaScript code outside a web browser.
 * [ExpressJS](https://expressjs.com) - Minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. 
 * [MongoDB](https://www.mongodb.com) - Cross-platform document-oriented database program built for modern application developers and for the cloud 
